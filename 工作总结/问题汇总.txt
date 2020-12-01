@@ -1,0 +1,43 @@
+1、php不是内部或外部文件
+配置环境变量中的系统变量，把php的路径写进去
+
+2、解决跨域问题：
+header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Headers: content-type');
+
+3、问题：No input file specified.
+解决方法：修改目录下的.user.ini(清空里面的路径地址)  或者配置host域名
+
+4、为什么引用layer.css没办法生效？
+加个 id='layuicss-layer' 就可以了
+
+5、js没有加载也没有报错？
+解决方法：修改js名称，重新命名
+
+6、有些报错500，或者php500报错，
+要先检查一下是否把js语言写成php语言
+
+7、'<button class="'.concat(a.verifyBtnClassName," ").concat(a.verifyBtnDisableClassName,'">验证</button>
+
+8、有时候点击按钮没生效，可能是button或者input有的不行，应该是点击按钮之间有冲突，换个事件或者换个标签
+
+9、前端跨域的解决方法：
+https://blog.csdn.net/joyhen/article/details/21631833
+https://zhuanlan.zhihu.com/p/81809258?from_voters_page=true
+
+10、带宽
+
+11、COS上传文件：
+https://www.321dz.com/2094.html
+
+12、cnpm不是内部或外部命令解决方法：https://blog.csdn.net/u011095110/article/details/85296607
+
+13、在其他电脑远程访问svn：https://blog.csdn.net/qq_36451252/article/details/84595015?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~baidu_landing_v2~default-3-84595015.nonecase&utm_term=%E6%80%8E%E4%B9%88%E8%AE%A9%E5%88%AB%E4%BA%BA%E8%AE%BF%E9%97%AE%E6%88%91%E7%9A%84svn&spm=1000.2123.3001.4430
+
+14、yii框架页面跳转：var url = "<?php echo Yii::app()->createUrl('m9/shoes004_submit_tw'); ?>";    location.href = url;
+
+
+
+
+
+

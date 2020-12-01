@@ -1,0 +1,44 @@
+1、onKeypress 
+按键按下触发的事件
+
+2、concat:用于连接两个或者多个数组
+
+3、在linux下安装websocket:
+https://www.cnblogs.com/murry/p/8945766.html
+
+4、号码归属地请求
+
+$.ajax({
+             type: "get",
+             url: 'http://tcc.taobao.com/cc/json/mobile_tel_segment.htm?tel='+tel,  //tel为你输入的号码
+             dataType: "jsonp",
+             jsonp: "callback",
+             success: function(data){
+               data.province;//地区
+               data.catName, //运营商  
+             },
+             error:function(){}
+      }) 
+
+5、百度SDK广告投放教程：http://ocpc.baidu.com/developer/d/guide/?iurl=js%2F
+
+6、nodejs vue的安装https://www.runoob.com/nodejs/nodejs-install-setup.html
+
+7、uView:图片引用  http://uviewui.com/components/resource.html
+
+8、网页模板：http://www.cssmoban.com/     https://sc.chinaz.com/moban/160211012690.htm#down
+
+9、jqchart折线统计图：https://blog.csdn.net/jungege018/article/details/47165269?locationNum=2&fps=1
+
+10、git远程仓库：https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
+
+11、马保国语音包安装：https://gitee.com/fliptower/Rainbow-Fart-MBG
+
+12、统计图：https://sc.chinaz.com/mobandemo.aspx?downloadid=2020100846394
+
+13、删除文件夹下所有的.git文件：find . -name ".git" | xargs rm -Rf
+
+
+
+
+
